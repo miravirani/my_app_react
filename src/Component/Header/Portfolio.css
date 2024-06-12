@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+.protfolio{
+    background-color: rgb(37, 37, 37);
+    height: 370px;
+    margin-top: 110px;
+}
+.col-lg-12 h1{
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+}
+.background{
+    padding: 40px 0;
+}
+.background h1{
+    color: #333;
+    font-family: "CerebriSans";
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.41;
+    font-size: 45px;
+}
+.mesonry-list{
+    position: relative;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    
+}
+.photo{
+    width: 25%;
+}

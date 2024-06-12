@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.site-content {
+    flex: 3;
+    margin-top: 110px;
+}
+
+.sidebar {
+    flex: 1;
+    margin-left: 20px;
+}
+
+header .page-title {
+    display: none;
+}
+
+article {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.list-article-thumb img {
+    width: 270px;
+    height: 200px;
+}
+
+.list-article-content {
+    padding: 10px;
+}
+
+.entry-title {
+    text-decoration: none;
+    color: #333;
+}
+
+.entry-excerpt p {
+    margin: 0;
+}
+
+.widget {
+    margin-bottom: 20px;
+}
+
+.post {
+    display: flex;
+    justify-content: space-between;
+}
+
+.widget_recent_entries ul,
+.widget_trending_posts ul {
+    list-style: none;
+    padding: 0;
+}
+
+.widget_recent_entries ul li,
+.widget_trending_posts ul li {
+    margin-bottom: 10px;
+}
+
+.widget_recent_entries ul li,
+.widget_trending_posts ul li {
+    text-decoration: none;
+    color: #00a3a5;
+}
+
+.list-article-meta p {
+    color: #00a3a5;
+    font-weight: 550;
+}
+
+.entry-title {
+    color: #00a3a5;
+
+}
+
+.entry-excerpt {
+    color: #696969;
+}
+
+.search-wrapper {
+    display: flex;
+}
+
+.search-input {
+    flex: 1;
+    padding: 10px ;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+}
+
+.search-button {
+    padding: 10px;
+    background-color: #00a3a5;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #007c7d;
+}
+.widget_recent_entries ul li{
+    color: #777;
+    font-size: 14px;
+    border-bottom: 0.5px solid #696969;
+    padding: 10px 0;
+}
+.widget_trending_posts ul li{
+    
+    color: #333;
+    font-family: "CerebriSans";
+    font-weight: 700;
+    line-height: 1.41;
+    font-size: 17px;
+    border-bottom: 1px solid #696969;
+    padding: 10px 0;
+}
+.widget_trending_post{
+    color: #777;
+    font-size: 16px;
+    line-height: 2;
+}
