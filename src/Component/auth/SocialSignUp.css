@@ -1,0 +1,24 @@
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 1rem 0;
+  }
+  
+  .divider:before,
+  .divider:after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+  }
+  .swbutton{
+    background-color: #8437f9;
+    color: white;
+    width: 100%;
+    font-weight: 500;
+  }
+  .swbutton:hover{
+    background-color: #6c1edf;
+    color: white;
+  }

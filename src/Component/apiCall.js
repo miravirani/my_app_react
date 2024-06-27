@@ -1,9 +1,10 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 
 function apiCall() {
     const [apicalling, setApiCalling] = useState([]);
+    const ref = useRef(0)
     // let [reloading, setReloading] = useState(false)
 
     function getData() {
@@ -19,7 +20,9 @@ function apiCall() {
     };
 
     useEffect(() => {
-        getData();
+        if (ref.current != 0) {
+            getData();
+        }
     }, []);
 
     return (
